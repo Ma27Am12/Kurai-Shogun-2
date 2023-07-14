@@ -1,0 +1,199 @@
+:root{
+--insta:#FD1D1D;
+--tg1: #FE2C55;
+--cian: #00acee;
+--Navy: #000080;
+--White: #ffff;
+--Black: #0000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: var(--Navy);
+}
+
+.content{
+    width: 800px;
+    height: 800px;
+    background-color: var(--White);
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.perfil{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil--img{
+    width: 80px;
+    height: 80px;
+}
+
+.perfil-image{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    width: 800px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-list{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.Home{
+    text-decoration: none;
+    color: #000;
+}
+
+.ln{
+    text-decoration: none;
+    color: #000;  
+}
+
+.name{
+    font-size: 1.7em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.paragaph{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tiwtter{
+    width: 600px;
+    height: 100px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    border-radius: 15px;
+    padding-top: 30px;
+    color: var(--White);
+    background-color: var(--cian);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.Tik-tok{
+    width: 600px;
+    height: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    border-radius: 15px;
+    padding-top: 30px;
+    color: var(--White);
+    background-color: var(--tg1);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.instagram{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-top: 30px;
+    border-radius: 15px;
+    background-color: var(--insta);
+    color: var(--White);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width: 600px) {
+
+    .content{
+        width: 300px;
+        height: 600px;
+        margin-top: 50px;
+    }
+
+    .nav{
+        width: 300px;
+        height: 100px;
+        display: block;
+    } 
+
+    .link-list{
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 1em;
+    }
+
+    .perfil{
+        width: 300px;
+        height: 200px;
+        display: block;
+    }
+
+    .perfil-image{
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+
+    .perfil--img{
+        width: 40px;
+        height: 40px;
+        margin: 20px 0 0 20px;
+    }
+
+    .name{
+        font-size: 1em;
+        margin-top: 50px;
+    }
+
+    .paragaph{
+        font-size: 0.75em;
+    }
+
+    .tiwtter, .Tik-tok, .instagram{
+        width: 250px;
+        height: 50px;
+        padding-top: 10px;
+        font-size: 1.3em;
+    }
+    
+}
+
+
